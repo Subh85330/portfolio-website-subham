@@ -13,10 +13,37 @@
     "name": "Segregation And Flocking of Heterogeneous Robotic Swarms With Potential Field",
     "desc": "Implementation of the paper Segregation of Heterogeneous Units in a Swarm of Robotic Agents Authors-Manish Kumar; Devendra P. Garg; Vijay Kumar. The concept of Artificial Potential Field has been studied for the application to the segregation and flocking of a group of robotic agents.",
     "image": "sppuprepandroid",
+    "category": "lamp",
+    "links": {
+      "view": "https://github.com/Subh85330/Segregation-of-Heterogeneous-Robotic-Swarms",
+      "code": "https://github.com/Subh85330/Segregation-of-Heterogeneous-Robotic-Swarms"
+    }
+  },
+  {
+    "name": "Segregation And Flocking of 1 Robotic Swarms With Potential Field",
+    "desc": "Implementation of the paper 2 of Heterogeneous Units in a Swarm of Robotic Agents Authors-Manish Kumar; Devendra P. Garg; Vijay Kumar. The concept of Artificial Potential Field has been studied for the application to the segregation and flocking of a group of robotic agents.",
+    "image": "sppuprepandroid",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/Subh85330/Segregation-of-Heterogeneous-Robotic-Swarms",
+      "code": "https://github.com/Subh85330/Segregation-of-Heterogeneous-Robotic-Swarms"
+    },
+    {
+    "name": "Segregation And Flocking of 2 Robotic Swarms With Potential Field",
+    "desc": "Implementation of the paper 2 of Heterogeneous Units in a Swarm of Robotic Agents Authors-Manish Kumar; Devendra P. Garg; Vijay Kumar. The concept of Artificial Potential Field has been studied for the application to the segregation and flocking of a group of robotic agents.",
+    "image": "sppuprepandroid",
+    "category": "basicweb",
+    "links": {
+      "view": "https://github.com/Subh85330/Segregation-of-Heterogeneous-Robotic-Swarms",
+      "code": "https://github.com/Subh85330/Segregation-of-Heterogeneous-Robotic-Swarms"
+    },
+    {
+    "name": "Segregation And Flocking of 3 Robotic Swarms With Potential Field",
+    "desc": "Implementation of the paper 3 of Heterogeneous Units in a Swarm of Robotic Agents Authors-Manish Kumar; Devendra P. Garg; Vijay Kumar. The concept of Artificial Potential Field has been studied for the application to the segregation and flocking of a group of robotic agents.",
+    "image": "sppuprepandroid",
     "category": "android",
     "links": {
       "view": "https://github.com/Subh85330/Segregation-of-Heterogeneous-Robotic-Swarms",
       "code": "https://github.com/Subh85330/Segregation-of-Heterogeneous-Robotic-Swarms"
     }
-  }
 ]
