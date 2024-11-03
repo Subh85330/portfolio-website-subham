@@ -24,7 +24,27 @@
         "icon": "https://img.icons8.com/color/48/000000/git.png"
     },
     {
-        "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    } 
+        "name": "Robotics",
+        "icon": "https://img.icons8.com/color/48/000000/robot.png"
+    },
+    {
+        "name": "MATLAB",
+        "icon": "https://img.icons8.com/color/48/000000/matlab.png"
+    },
+    {
+        "name": "Jenkins",
+        "icon": "https://img.icons8.com/color/48/000000/jenkins.png"
+    },
+    {
+        "name": "Docker",
+        "icon": "https://img.icons8.com/color/48/000000/docker.png"
+    },
+    {
+        "name": "kubernetes",
+        "icon": "https://img.icons8.com/color/48/000000/kubernetes.png"
+    },
+    {
+        "name": "Path Planning",
+        "icon": "https://img.icons8.com/color/48/000000/path.png"
+    }  
 ]
