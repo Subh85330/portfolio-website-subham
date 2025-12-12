@@ -30,12 +30,20 @@ $(document).ready(function () {
     });
 
     // smooth scrolling
-    $('a[href*="#"]').on('click', function (e) {
+    $('a[href^="#"]').on('click', function (e) {
+        const target = $(this).attr('href');
+
+        // if link is JUST "#" or empty → ignore
+        if (target.length < 2) return;
+
+        // if the target element does not exist → allow normal navigation
+        if ($(target).length === 0) return;
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: $($(this).attr('href')).offset().top,
-        }, 500, 'linear')
+            scrollTop: $(target).offset().top
+        }, 500);
     });
+
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
