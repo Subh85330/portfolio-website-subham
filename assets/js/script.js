@@ -64,17 +64,17 @@ $(document).ready(function () {
 
 });
 
-document.addEventListener('visibilitychange',
-    function () {
-        if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Subham Upadhayay";
-            $("#favicon").attr("href", "assets/images/favicon.png");
-        }
-        else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
-        }
-    });
+// document.addEventListener('visibilitychange',
+//     function () {
+//         if (document.visibilityState === "visible") {
+//             document.title = "Portfolio | Subham Upadhayay";
+//             $("#favicon").attr("href", "assets/images/favicon.png");
+//         }
+//         else {
+//             document.title = "Come Back To Portfolio";
+//             $("#favicon").attr("href", "assets/images/favhand.png");
+//         }
+//     });
 
 
 // <!-- typed js effect starts -->
