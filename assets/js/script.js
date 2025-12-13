@@ -16,17 +16,21 @@ $(document).ready(function () {
         }
 
         // scroll spy
-        $('section').each(function () {
-            let height = $(this).height();
-            let offset = $(this).offset().top - 200;
-            let top = $(window).scrollTop();
-            let id = $(this).attr('id');
+        // scroll spy (ONLY if using #section navigation)
+        if (document.querySelector('a[href^="#"]')) {
+            $('section').each(function () {
+                let height = $(this).height();
+                let offset = $(this).offset().top - 200;
+                let top = $(window).scrollTop();
+                let id = $(this).attr('id');
 
-            if (top > offset && top < offset + height) {
-                $('.navbar ul li a').removeClass('active');
-                $('.navbar').find(`[href="#${id}"]`).addClass('active');
-            }
-        });
+                if (top > offset && top < offset + height) {
+                    $('.navbar ul li a').removeClass('active');
+                    $('.navbar').find(`[href="#${id}"]`).addClass('active');
+                }
+            });
+        }
+
     });
 
     // // smooth scrolling
@@ -70,19 +74,28 @@ $(document).ready(function () {
 
 
 // <!-- typed js effect starts -->
-var typed = new Typed(".typing-text", {
-    strings: ["Robotics", "Fleet Management", "Path Planning", "Software Development", "Backend Development"],
-    loop: true,
-    typeSpeed: 50,
-    backSpeed: 25,
-    backDelay: 500,
-});
+if (document.querySelector(".typing-text")) {
+    var typed = new Typed(".typing-text", {
+        strings: [
+            "Robotics",
+            "Fleet Management",
+            "Path Planning",
+            "Software Development",
+            "Backend Development"
+        ],
+        loop: true,
+        typeSpeed: 50,
+        backSpeed: 25,
+        backDelay: 500,
+    });
+}
+
 // <!-- typed js effect ends -->
 
 async function fetchData(type = "skills") {
     let response
     type === "skills" ?
-        response = await fetch("skills.json")
+        response = await fetch("/skills.json")
         :
         response = await fetch("./projects/projects.json")
     const data = await response.json();
@@ -191,14 +204,14 @@ document.onkeydown = function (e) {
 }
 
 // Start of Tawk.to Live Chat
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/6665eb8d981b6c56477b57b4/1hvv208je';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
+var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+(function () {
+    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/6665eb8d981b6c56477b57b4/1hvv208je';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
 })();
 // End of Tawk.to Live Chat
 
