@@ -75,7 +75,7 @@ header {
 }
 section {
   min-height: 100vh;
-  padding: 2rem 9%;
+  padding: 8.5rem 9% 2rem; /* ⬅ top padding increased */
 }
 .heading {
   font-size: 3.5rem;
