@@ -271,9 +271,12 @@ header .navbar ul li a:hover {
 .home .btn:hover i {
   transform: translateX(5px);
 }
-.home {
-  background: #070707;
+.home::before {
+  background: rgba(0,0,0,0.2);
 }
+/* .home {
+  background: #070707;
+} */
 
 /* social icons start */
 .socials {
