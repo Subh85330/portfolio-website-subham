@@ -233,7 +233,7 @@ header .navbar ul li a:hover {
 }
 .home .content p {
   font-size: 2.5rem;
-  color: #000;
+  color: #f1ebeb;
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -274,9 +274,9 @@ header .navbar ul li a:hover {
 .home::before {
   background: rgba(0,0,0,0.2);
 }
-/* .home {
+.home {
   background: #070707;
-} */
+}
 
 /* social icons start */
 .socials {
