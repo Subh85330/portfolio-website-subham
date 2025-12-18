@@ -274,9 +274,9 @@ header .navbar ul li a:hover {
 .home::before {
   background: rgba(0,0,0,0.2);
 }
-.home {
+/* .home {
   background: #070707;
-}
+} */
 
 /* social icons start */
 .socials {
