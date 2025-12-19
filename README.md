@@ -3,6 +3,10 @@ Portfolio website
 
 <a href="https://subhamupadhayay.netlify.app/" target="_blank">**Visit Now** 🚀</a>
 
+<p align="center">
+    <image src="results/portfolio.gif" width="80%">
+</p>
+
 
 ## 📌 Tech Stack
 [![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/jSubh85330/portfolio-website-subham/search?l=html)&nbsp;
